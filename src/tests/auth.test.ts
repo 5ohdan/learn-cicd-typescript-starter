@@ -7,7 +7,7 @@ test("getAPIKey should return the API key from the Authorization header", () => 
   };
 
   const apiKey = getAPIKey(headers);
-  expect(apiKey).toBe("123456789");
+  expect(apiKey).toBe("1234567890");
 });
 
 test("getAPIKey should return null if the Authorization header is not present", () => {
